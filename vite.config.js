@@ -5,6 +5,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/[name]-[hash][extname]',
+        },
+      },
+    },
     chunkSizeWarningLimit: 700000 // Ajusta el valor según tus necesidades (en KB)
   }
 })
