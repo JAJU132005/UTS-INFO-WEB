@@ -9,7 +9,7 @@ function Carousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="../src/assets/imagenHeater1.png" class="d-block w-100" alt="Descripción de la imagen 1" />
+          <img src="../images/imagenHeater1.png" class="d-block w-100" alt="Descripción de la imagen 1" />
           <div className="container">
             <div className="carousel-caption custom-background">
               <h1>Admisiones para la Modalidad Presencial.</h1>
@@ -19,7 +19,7 @@ function Carousel() {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="../src/assets/30-FACHADA-POSTERIOR.jpg" class="d-block w-100" alt="Descripción de la imagen 2" />
+          <img src="../images/30-FACHADA-POSTERIOR.jpg" class="d-block w-100" alt="Descripción de la imagen 2" />
           <div className="container">
             <div className="carousel-caption custom-background">
               <h1>Fecha limite cancelacion de Cursos</h1>
@@ -29,7 +29,7 @@ function Carousel() {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="../src/assets/imagen3.jpg" class="d-block w-100" alt="Descripción de la imagen 3" />
+          <img src="../images/imagen3.jpg" class="d-block w-100" alt="Descripción de la imagen 3" />
           <div className="container">
             <div className="carousel-caption custom-background">
               <h1>Fecha limite cancelacion de Semestre</h1>
