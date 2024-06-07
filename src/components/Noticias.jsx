@@ -9,7 +9,6 @@ const Noticias = () => {
             <Header/>
             <h2>Noticias y anuncios</h2>
             <Album/>
-            <Card/>
             
         </div>
     )
